@@ -1,0 +1,57 @@
+body{
+    font-family: Times New Roman !important;
+    position: relative;
+}
+
+a{
+    color: SteelBlue !important;
+}
+
+.navbar .nav-item {
+    color: SteelBlue;
+    font-family: Avenir;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar .nav-item:hover {
+    color: DodgerBlue;
+}
+
+.nav-tabs-nostyle > a.active {
+    color: #AED6F1!important;
+}
+
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    padding-top: 50px
+}
+
+.anchor {
+    padding-top: 100px;
+    margin-top: -70px
+}
+
+#links{
+    font-size: 1.75em;
+}
+
+#name{
+    font-size: 3em !important;
+	color: MidnightBlue;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.text-large {
+  font-size: 100%;
+}
