@@ -1,57 +1,90 @@
-body{
-    font-family: Times New Roman !important;
-    position: relative;
+body {
+  font-family: Times New Roman !important;
+  font-size: 12pt;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-a{
-    color: SteelBlue !important;
+h1
+{
+  margin-bottom: 0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  font-size: 24pt;
+  font-weight: normal;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+  padding: 20px 10px 20px 10px
 }
 
-.navbar .nav-item {
-    color: SteelBlue;
-    font-family: Avenir;
-    font-size: 1.5em;
+h3
+{
+  margin-top: 20pt;
+  margin-bottom: 6pt;
+}
+
+a
+{
+  text-decoration: SteelBlue !important;
+}
+
+/* ul */
+/* { */
+/*   list-style: none; */
+/*   margin-left:0pt; */
+/*   padding-left:0em; */
+/* } */
+
+
+ul li
+{
+  margin-top:16pt;
+  margin-bottom:16pt;
+}
+
+div#contact
+{
+  float:left;
+  width:250px;
+  margin-right:20px;
+}
+
+div#content
+{
+  float:left;
+  width:700px;
+}
+
+div#lastupdate {
+  border-top: 1px solid blue;
+  margin-top: 20pt;
+  padding-top: 3pt;
+  font-size:8pt;
+  color: gray;
+}
+
+
+
+nav a
+{
+    margin-right: 2.5em;
+    margin-bottom: 0px;
+    color: gray;
+    font-size: 12pt;
     font-weight: bold;
 }
 
-.navbar .nav-item:hover {
-    color: DodgerBlue;
+a:hover
+{
+    text-decoration-line: underline;
 }
 
-.nav-tabs-nostyle > a.active {
-    color: #AED6F1!important;
+.current {
+    color:black;
 }
 
-
-.vertical-align {
-    display: flex;
-    align-items: center;
-}
-
-.content {
-    padding-top: 50px
-}
-
-.anchor {
-    padding-top: 100px;
-    margin-top: -70px
-}
-
-#links{
-    font-size: 1.75em;
-}
-
-#name{
-    font-size: 3em !important;
-	color: MidnightBlue;
-}
-
-.carousel-caption {
-    position: relative;
-    left: auto;
-    right: auto;
-}
-
-.text-large {
-  font-size: 100%;
+nav {
+    padding: 20px 10px 20px 10px;
+    border-bottom: 1px solid blue;
 }
