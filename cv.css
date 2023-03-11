@@ -1,0 +1,131 @@
+body {
+  font-family: Palatino, Times, serif;
+  font-size: 12pt;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1
+{
+  margin: 0pt 0pt 0pt 0pt;
+  font-size: 24pt;
+  font-weight: normal;
+  border-bottom: 3px solid blue;
+}
+
+h2
+{
+  margin: 20pt 0pt 0pt 0pt;
+  font-weight: normal;
+  border-bottom: 1px solid blue;
+}
+  
+
+h3
+{
+  margin-top: 20pt;
+  margin-bottom: 6pt;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+dl
+{
+  margin-top:0.5em;
+  padding: 0 0 0 0;
+}
+
+ul
+{
+  margin-left: 0em;
+  margin-top:0.5em;
+  padding-top:0.5em;
+}
+
+ul#pres
+{
+  padding-left: 8em;
+  list-style: none;
+}
+
+ul#pres li ul
+{
+    margin-top:0em;
+    margin-bottom:1em;
+}
+
+ol#pubs-compet
+{
+  padding-left: 8em;
+}
+
+ol#pubs-compet li
+{
+  margin-bottom:1em;
+}
+
+ol#pubs-journal
+{
+  padding-left: 8em;
+}
+
+ol#pubs-journal li
+{
+  margin-bottom:1em;
+}
+
+
+ol#pubs-review
+{
+  padding-left: 8em;
+}
+
+ol#pubs-review li
+{
+  margin-bottom:1em;
+}
+
+ol#pubs-other
+{
+  padding-left: 8em;
+}
+
+ol#pubs-other li
+{
+  margin-bottom:1em;
+}
+
+
+dt
+{
+  float:left;
+  clear:left;
+  width: 8em;
+  padding-top:0.5em;
+}
+
+dd
+{
+    margin-left:8em;
+    padding-top:0.5em;
+}
+
+div#content
+{
+  float:left;
+  margin-left:75px;
+  margin-right:75px;
+  width:650px;
+}
+
+div#lastupdate {
+  border-top: 3px solid blue;
+  margin-top: 20pt;
+  padding-top: 3pt;
+  font-size:8pt;
+  color: gray;
+}
